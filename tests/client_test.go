@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	_ "github.com/mbobakov/grpc-consul-resolver"
+	_ "github.com/anjiawei1991/grpc-consul-resolver"
 	"github.com/sirupsen/logrus"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/grpclog"

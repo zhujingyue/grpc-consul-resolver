@@ -6,7 +6,7 @@ This library is *production ready* and will always *save backward-compatibility*
 
 ## Quick Start
 
-For using resolving endpoints from your [Hashicorp Consul](https://www.consul.io) just import this library with `import _ /github.com/mbobakov/grpc-consul-resolver` and pass valid connection string to the `grpc.Dial`.
+For using resolving endpoints from your [Hashicorp Consul](https://www.consul.io) just import this library with `import _ /github.com/anjiawei1991/grpc-consul-resolver` and pass valid connection string to the `grpc.Dial`.
 
 For full example see [this section](#example)
 
@@ -38,7 +38,7 @@ import (
 	"time"
 	"log"
 
-	_ "github.com/mbobakov/grpc-consul-resolver" // It's important
+	_ "github.com/anjiawei1991/grpc-consul-resolver" // It's important
 
 	"google.golang.org/grpc"
 )

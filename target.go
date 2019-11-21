@@ -29,8 +29,8 @@ type target struct {
 	Dc                string        `form:"dc"`
 	AllowStale        bool          `form:"allow-stale"`
 	RequireConsistent bool          `form:"require-consistent"`
-	// TODO(mbobakov): custom parameters for the http-transport
-	// TODO(mbobakov): custom parameters for the TLS subsystem
+	// TODO(anjiawei1991): custom parameters for the http-transport
+	// TODO(anjiawei1991): custom parameters for the TLS subsystem
 }
 
 func (t *target) String() string {
