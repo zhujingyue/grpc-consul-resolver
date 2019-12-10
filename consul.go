@@ -60,7 +60,7 @@ func watchConsulService(ctx context.Context, s servicer, tgt target, out chan<- 
 				},
 			)
 			if err != nil {
-				grpclog.Errorf("[Consul resolver] Couldn't fetch endpoints. target={%s}", tgt.String())
+				grpclog.Errorf("[Consul resolver] Couldn't fetch endpoints. target={%s} err:%v", tgt.String(), err)
 				time.Sleep(bck.Duration())
 				continue
 			}
