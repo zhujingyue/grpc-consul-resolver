@@ -80,6 +80,7 @@ func watchConsulService(ctx context.Context, s servicer, tgt target, out chan<- 
 				ee = ee[:tgt.Limit]
 			}
 			res <- ee
+			grpclog.Info("[Consul resolver] update address: %v for target={%s}", ee, tgt.String())
 		}
 	}()
 
