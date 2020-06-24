@@ -1,4 +1,4 @@
-module github.com/anjiawei1991/grpc-consul-resolver
+module github.com/zhujingyue/grpc-consul-resolver
 
 require (
 	github.com/go-playground/form v3.1.3+incompatible
