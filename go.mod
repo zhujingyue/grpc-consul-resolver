@@ -7,7 +7,7 @@ require (
 	github.com/pkg/errors v0.8.1
 	github.com/sirupsen/logrus v1.1.1
 	github.com/stretchr/testify v1.3.0
-	google.golang.org/grpc v1.2.1-0.20181011201045-c05280cc73cd
+	google.golang.org/grpc v1.31.0
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
 )
 
